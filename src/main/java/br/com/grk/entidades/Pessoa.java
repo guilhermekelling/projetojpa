@@ -27,8 +27,8 @@ public class Pessoa implements Serializable {
 	
 	@Temporal(TemporalType.DATE)
 	private Date dataNascimento;
-
-	private Pessoa() {
+	
+	public Pessoa() {
 	}
 	
 	public Long getId() {
