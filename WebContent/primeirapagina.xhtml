@@ -53,6 +53,12 @@
 				</h:commandLink>								
 			</h:column>
 
+			<h:column>
+				<h:commandLink value="Excluir" action="#{pessoaBean.remove}">
+					<f:setPropertyActionListener target="#{pessoaBean.pessoa}" value="#{pessoas}" />
+				</h:commandLink>
+			</h:column>
+
 		</h:dataTable>
 	</h:form>
 </h:body>
